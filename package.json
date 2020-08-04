@@ -12,6 +12,7 @@
   "dependencies": {
     "express": "^4.17.1",
     "mysql": "^2.18.1",
+    "rox-node": "^4.9.16",
     "uuid-token-generator": "^1.0.0"
   }
 }
