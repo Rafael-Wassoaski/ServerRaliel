@@ -4,8 +4,10 @@ const create = require('./DataBase/Create');
 const insert = require('./DataBase/Insert');
 const select = require('./DataBase/Select');
 const tokenGenerator = require('uuid-token-generator');
+const createSqlite = require('./DataBase/CreateSqlite');
 
-create();
+// create();
+createSqlite();
 
 app.use(express.json());
 
